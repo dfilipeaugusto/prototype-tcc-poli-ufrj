@@ -27,5 +27,5 @@ models:
         tests:
           - not_null
           - relationships:
-              to: ref('stg_customers')
+              to: ref('stg_customer')
               field: customer_id
